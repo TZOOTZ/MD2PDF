@@ -78,8 +78,4 @@ MD2PDF is developed and maintained by TZOOTZ RESEARCH.
 
 ## License
 
-[License information to be added]
-
-## Contributing
-
-[Contributing guidelines to be added]
+[MIT]
