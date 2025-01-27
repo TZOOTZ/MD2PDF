@@ -1,0 +1,67 @@
+/* Estilos clásicos para novela de los 1800s */
+
+body {
+    font-family: 'Garamond', serif;
+    line-height: 1.6;
+    margin: 50px;
+    background-color: #fdfdfd;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2e2e2e;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.8em;
+    color: #555555;
+}
+
+.footer::after {
+    content: "© TZOOTZ RESEARCH 2025®";
+}
+
+/* Tabla de contenidos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Código en bloque */
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+} 
